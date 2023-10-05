@@ -5,6 +5,7 @@
 
 body{
     background-color: #e8dcca;
+    font-family: 'Times New Roman', serif;
 }
 
 ul{
@@ -43,7 +44,8 @@ h2 {
     background-color: #d1bd9e;
     padding: 1em;
     margin: 1em;
-    text-align: center; 
+    font-weight: lighter;
+
 }
 
 h2 , article{
@@ -58,9 +60,14 @@ article {
     margin: 20px;
 }
 
+footer {
+    background-color: #d1bd9e;
+}
+
 p {
     background-color: #d1bd9e;
 }
+
 
 
 .home_page {
@@ -72,7 +79,7 @@ p {
 }
 
 .responsive {
-     width: 100%;
+     max-width: 100%;
      height: auto;
      margin-bottom: 2%;
 }
@@ -82,6 +89,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
+    width: 20em;
 
 }
 
@@ -92,7 +100,7 @@ p {
     margin-right: auto;
     margin-top: 1%;
     margin-bottom: 5%;
-    width: 50%;
+    width: 35em;
 }
 
 
@@ -105,10 +113,16 @@ p {
     background-color: #d1bd9e;
     overflow: auto;
     white-space: nowrap;
-    padding: 0,2em;  
+    padding: 0,2em; 
 }
 
 .scroll-images-maui img{
     padding: 1em;
 }
+
+.selfies-maui {
+    width: 20em;
+}
+   
+
 
